@@ -9,28 +9,26 @@ font-family: Raleway;
 
 .container-header1 {
 display: flex;
-flex-direction: row;
+flex-flow: row nowrap;
 justify-content: space-around;
 }
 
 .Logo {
-    flex-basis: 70%;
-    align-self: flex-end;
-    
+  flex-basis: 70%;
+    align-self: flex-end;   
 }
-
 .accact {                                       /*Accommodations and Activites class*/
     justify-content: flex-end;
     padding: 40px;
 }
-a {
+.accact a {
 text-decoration: none;
 color: inherit;
 }
-a:hover {
+.accact a:hover {
     color:#0065FC;
     border-top: 2pt solid #0065FC;
-    padding-top: 16px;
+    padding-top: 20px;
     text-decoration: none;
 }
 
@@ -38,9 +36,14 @@ a:hover {
 .heading {
     display: inline-flex;
     flex-direction: column;
-    height: 150px;
+    height: 80px;
   justify-content: flex-start;
 
+}
+.emptydiv1 {
+    visibility: hidden;
+    height: 10px;
+ 
 }
 .h1find {
     margin-left: 32px;
@@ -50,3 +53,118 @@ a:hover {
     margin-left: 32px;
     margin-top: -22px;
 }
+
+.search{
+    display: inline-block;
+    position: relative;
+    
+    left: 32px;
+    width: 330px;
+}
+input[type=text] {
+    padding: 9px 20px 9px 9px;
+    font-weight: 700;
+    position: absolute;
+    left:50px;
+}
+.fa-location-dot {
+    border: 1px solid #F2F2F2;
+    border-radius: 12px 0 0 12px;
+    padding: 12px 16px 12px 12px;
+    padding-inline-start: 20px;
+    position: absolute;
+    left:0;
+    background-color: #F2F2F2;
+  }
+  .submit {
+      background-color: #0065FC;
+      color: white;
+      font-weight: 700;
+      border : 1px solid  #0065FC;
+      padding: 11px 20px 11px 11px;
+      position: absolute;
+      right:0px;
+   border-radius: 0 12px 12px 0;
+   transition: 0.5s;
+  }
+  .submit:hover
+  {color:#F2F2F2 }
+/*                                                                            
+.search {
+    margin: -50px 0 0 32px;   
+} */   /*alternative positioning  */
+
+.Filters {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 80px 0 0 32px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.fltIcon{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    margin-left: 40px;
+    padding: 1px 20px 1px 0px;
+    border: 1px solid #f2f2f2;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left: none;
+}
+
+.i {
+  padding-left: 16px;
+    font-size: 16px;
+}
+
+i[class="fa-solid fa-money-bill-wave"], i[class="fa-solid fa-child"], i[class="fa-solid fa-heart"], i[class="fa-solid fa-dog"] {
+  width: 43px;
+  height: 43px;
+  margin: -2px 0 -2px -20px;
+  text-align: center;
+  line-height: 42px;
+  font-size: 16px;
+  color: #0065fc;
+  background-color: #DEEBFF;
+  border-radius: 24px;
+
+}
+ 
+
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+h5{
+  font-size:18px;
+}
+footer a{
+  text-decoration: none;
+color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  margin: 15px 0 15px 0;
+  padding-left: 0px;
+}
+
+li {
+  line-height: 30px;
+}
+.about {
+  margin-left: 32px;
+  padding-right: 128px;
+}
+.our-accommodations {
+  align-items: center;
+  padding-right:  256px;
+}
+
