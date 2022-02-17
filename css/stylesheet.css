@@ -4,16 +4,19 @@
 
 body {
 font-family: Raleway;
+margin: 0;
 
 }
 
 .container-header1 {
 display: flex;
 flex-flow: row nowrap;
-justify-content: space-around;
+justify-content: flex-start;
 }
 
 .Logo {
+ 
+  margin-left: 32px;
   flex-basis: 70%;
     align-self: flex-end;   
 }
@@ -34,10 +37,10 @@ color: inherit;
 
 
 .heading {
-    display: inline-flex;
-    flex-direction: column;
-    height: 80px;
-  justify-content: flex-start;
+    
+  max-width:fit-content;
+  margin: inherit;
+  padding: 0 32px;
 
 }
 .emptydiv1 {
@@ -45,14 +48,14 @@ color: inherit;
     height: 10px;
  
 }
-.h1find {
+/*.h1find {
     margin-left: 32px;
     letter-spacing: -2px;
 }
 .pdowntown {
     margin-left: 32px;
     margin-top: -22px;
-}
+} */
 
 .search{
     display: inline-block;
@@ -62,10 +65,13 @@ color: inherit;
     width: 330px;
 }
 input[type=text] {
-    padding: 9px 20px 9px 9px;
+    padding: 9px 20px 12px 9px;
     font-weight: 700;
     position: absolute;
     left:50px;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #F2F2F2;
 }
 .fa-location-dot {
     border: 1px solid #F2F2F2;
@@ -123,9 +129,20 @@ input[type=text] {
 }
 
 
+.filter-icon {
+  width: 43px;
+  height: 43px;
+  margin: -2px 0 -2px -16px;
+  color: #0065fc;
+  background-color: #DEEBFF;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
 
-
+/*
 i[class="fa-solid fa-money-bill-wave"], i[class="fa-solid fa-child"], i[class="fa-solid fa-heart"], i[class="fa-solid fa-dog"] {
   width: 43px;
   height: 43px;
@@ -139,12 +156,15 @@ i[class="fa-solid fa-money-bill-wave"], i[class="fa-solid fa-child"], i[class="f
 
 }
  
+*/
 
 footer {
   background-color: #f2f2f2;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
+  max-width: 100%;
+  gap: 10%;
 }
 h5{
   font-size:18px;
@@ -163,12 +183,7 @@ ul {
 li {
   line-height: 30px;
 }
-.about {
-  margin-left: 32px;
-  padding-right: 128px;
-}
-.our-accommodations {
-  align-items: center;
-  padding-right:  256px;
+.about, .our-accommodations, .assistance {
+margin: 0 0 0 32px;
 }
 
