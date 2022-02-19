@@ -12,10 +12,11 @@ margin: 0;
 display: flex;
 flex-flow: row nowrap;
 justify-content: flex-start;
+
 }
 
 .Logo {
- 
+  margin-top: 53px;
   margin-left: 3.6%;
   flex-basis: 70%;
   align-self: flex-end;   
@@ -42,12 +43,12 @@ color: inherit;
     
   max-width:fit-content;
   margin: inherit;
-  padding: 0 3.6%;;
+  padding: 0 3.6%;
 
 }
 .emptydiv1 {
     visibility: hidden;
-    height: 10px;
+    height: 0px;
  
 }
 /*.h1find {
@@ -62,7 +63,6 @@ color: inherit;
 .search{
     display: inline-block;
     position: relative;
-    
     left: 3.6%;
     width: 330px;
 }
@@ -105,7 +105,7 @@ input[type=text] {
 .Filters {
     display: flex;
     flex-flow: row wrap;
-    margin: 80px 0 0 3.6%;;
+    margin: 49px 0 0 3.6%;
     justify-content: flex-start;
     align-items: center;
 }
@@ -185,54 +185,93 @@ i[class="fa-solid fa-money-bill-wave"], i[class="fa-solid fa-child"], i[class="f
   width:400px;
 }
 .AccomodationsInMarseille {
-  display: flex;
-  flex-flow: row wrap;
+  display: inline-block;
   width: 880px;
   height: 626px;
   background-color: #f2f2f2;
+  border-radius: 10px;
   margin: 15px 40px 65px 3.6%;
-  gap: 31px 30px;
+
 }
 .AccomodationsInMarseille > h2 {
-  margin-top: 47px;
+  margin-top: 50px;
+  margin-left: 40px;
+  font-size: 16px;
+  font-family: Raleway-Bold;
+}
+.AccomodationsInMarseille > h4 {
+  margin-top: 43px;
+  margin-bottom: 50px;
   margin-left: 40px;
   font-size: 16px;
   font-family: Raleway-Bold;
 }
 
-.CardsTopRow{
+.MarseilleRowOne {
+  display: flex;
+  gap: 30px;
+  margin: 27px 40px;
+}
+.Card{
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-  margin-top: 200px;
-  margin-left: 40px;
-  background-color: red;
+  background-color: white;
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 244px;
-  height: 199px;  
+  height: 199px; 
+  border-radius: 10px; 
 }
 
-.img{
-  background-color: green;
+.Image {
   width: 236px;
   height: 114px;
-  margin: 5px 3px 13px 5px;
+  object-fit: cover;
+  margin: 5px 3px 0px 5px;
+  border-radius: 10px;
 }
-.photo {
-
-  
+.Container {
+  text-align: left;
+  margin-top: -10px;
+  margin-left: 16px;
+  line-height: 0px;
+  font-size: 12px;
+}
+.Container > I{
+  color:#0065fc;
+}
+.Container > #Star {
+  color:#f2f2f2;
+}
+.MarseilleRowTwo {
+  display: flex;
+  gap: 30px;
+  margin: 27px 40px;
+}
+.Price{
+  font-family: Raleway-bold;
 }
 
 /* On mouse-over, add a deeper shadow */
-.card:hover {
+.Card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
+}
+aside{
+position: absolute;
+ top: 429px;
+ 
+ right: 40px;
+  width: 420px;
+  height: 625px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
 }
 
 footer {
