@@ -5,14 +5,12 @@
 body {
 font-family: Raleway;
 margin: 0;
-
 }
 
 .container-header1 {
 display: flex;
 flex-flow: row nowrap;
 justify-content: flex-start;
-
 }
 
 .Logo {
@@ -21,16 +19,19 @@ justify-content: flex-start;
   flex-basis: 70%;
   align-self: flex-end;   
 }
+
 .accact {                                       /*Accommodations and Activites class*/
     justify-content: flex-end;
     margin-top: 32px;
     padding: 40px;
     text-size-adjust: 7px;
 }
+
 .accact a {
 text-decoration: none;
 color: inherit;
 }
+
 .accact a:hover {
     color:#0065FC;
     border-top: 2pt solid #0065FC;
@@ -40,16 +41,14 @@ color: inherit;
 
 
 .heading {
-    
   max-width:fit-content;
   margin: inherit;
   padding: 0 3.6%;
-
 }
+
 .emptydiv1 {
     visibility: hidden;
     height: 0px;
- 
 }
 /*.h1find {
     margin-left: 32px;
@@ -66,6 +65,7 @@ color: inherit;
     left: 3.6%;
     width: 330px;
 }
+
 input[type=text] {
     padding: 9px 20px 12px 9px;
     font-weight: 700;
@@ -75,6 +75,7 @@ input[type=text] {
     border-style: solid;
     border-color: #F2F2F2;
 }
+
 .fa-location-dot {
     border: 1px solid #F2F2F2;
     border-radius: 12px 0 0 12px;
@@ -84,6 +85,7 @@ input[type=text] {
     left:0;
     background-color: #F2F2F2;
   }
+
   .submit {
       background-color: #0065FC;
       color: white;
@@ -95,8 +97,9 @@ input[type=text] {
    border-radius: 0 12px 12px 0;
    transition: 0.5s;
   }
-  .submit:hover
-  {color:#F2F2F2 }
+
+  .submit:hover {
+    color:#F2F2F2 }
 /*                                                                            
 .search {
     margin: -50px 0 0 32px;   
@@ -111,8 +114,7 @@ input[type=text] {
     gap:20px;
 }
 
-
-.fltIcon{
+.fltIcon {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -142,7 +144,6 @@ input[type=text] {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 /*
@@ -169,10 +170,9 @@ i[class="fa-solid fa-money-bill-wave"], i[class="fa-solid fa-child"], i[class="f
   font-weight: 600;
   margin-left: 3.6%;
   gap: 15px;
- 
 }
   
-.infoicon{
+.infoicon {
   width: 23px;
   height: 23px;
   color: #0065fc;
@@ -182,15 +182,18 @@ i[class="fa-solid fa-money-bill-wave"], i[class="fa-solid fa-child"], i[class="f
   justify-content: center;
   align-items: center;
 }
+
 .info > p {
   width:400px;
 }
-#AccomodationsInMarseille{
+
+#AccomodationsInMarseille {
 display: flex;
 justify-content: flex-start;
 flex-flow: row wrap;
 align-items: center;
 }
+
 .AccomodationsInMarseille {
   display: inline-block;
   width: 880px;
@@ -198,14 +201,15 @@ align-items: center;
   background-color: #f2f2f2;
   border-radius: 10px;
   margin: 15px 40px 0px 3.6%;
-
 }
+
 .AccomodationsInMarseille > h2 {
   margin-top: 50px;
   margin-left: 40px;
   font-size: 16px;
   font-family: Raleway-Bold;
 }
+
 .AccomodationsInMarseille > h4 {
   margin-top: 43px;
   margin-bottom: 50px;
@@ -219,7 +223,8 @@ align-items: center;
   gap: 30px;
   margin: 27px 40px;
 }
-.Card{
+
+.Card {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -239,6 +244,7 @@ align-items: center;
   margin: 5px 3px 0px 5px;
   border-radius: 10px;
 }
+
 .Container {
   text-align: left;
   margin-top: -10px;
@@ -246,18 +252,22 @@ align-items: center;
   line-height: 0px;
   font-size: 12px;
 }
-.Container > I{
+
+.Container > I {
   color:#0065fc;
 }
+
 .Container > #Star {
   color:#f2f2f2;
 }
+
 .MarseilleRowTwo {
   display: flex;
   gap: 30px;
   margin: 27px 40px;
 }
-.Price{
+
+.Price {
   font-family: Raleway-bold;
 }
 
@@ -270,7 +280,8 @@ align-items: center;
 .container {
   padding: 2px 16px;
 }
-aside{
+
+aside {
   width: 420px;
   height: 625px;
  /*top: 429px; 
@@ -280,24 +291,27 @@ aside{
   border-radius: 10px;
 }
 
-.MostPopularHeading{
+.MostPopularHeading {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
   align-content: space-around;
 }
-.MostPopularH{
+
+.MostPopularH {
   flex: 1 1 auto;
   margin-left: 38px;
   margin-top: 40px;
   font-family: Raleway-Bold;
 }
-.MostPopularHeading > span{
+
+.MostPopularHeading > span {
   margin-top: 46px;
   align-self: center;
   margin-right: 32px;
 }
-.CardsColumns{
+
+.CardsColumns {
   display: flex;
   flex-direction: column;
   gap: 33px;
@@ -305,7 +319,8 @@ aside{
   align-items: center;
   text-align: justify;
 }
-.MostPopularCard{
+
+.MostPopularCard {
   height: 144px;
   width: 344px;
   background-color: white;
@@ -318,7 +333,6 @@ aside{
   color: #0065fc;
 }
 
-
 .MostPopularImage{
   width: 127px;
   height: 134px;
@@ -326,22 +340,54 @@ aside{
   border-radius: 10px;
   object-fit: cover;
 }
-.ContainerMostPopularCards{
+
+.ContainerMostPopularCards {
   word-spacing: -2px;
   margin-right:20px;
 }
+
 .ContainerMostPopularCards >#Star {
   color:#f2f2f2;
 }
 
-.ActivitiesInMarseille{
-height:
-width:
-background-color: #f2f2f2;
-}
-
 .ActivitiesInMarseille > h4 {
 margin: 64px 0px  0px 3.6%;
+}
+
+.box {
+  height: 50px;
+  background-color: blue;
+  width: 302px;
+  height: 226px;
+}
+
+.mb-1 {
+  height: 237px;
+}
+
+.mb-2 {
+  height: 210px;
+}
+
+.tall {
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  margin: 27px 53px 60px 3.6%;
+  gap: 43px;
+}
+
+.col {
+  width: 302px;
+  height: 445px;
+}
+
+#col {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
 }
 
 footer {
@@ -354,10 +400,11 @@ footer {
   margin-top: 20%;  
 }
 
-h5{
+h5 {
   font-size:18px;
 }
-footer a{
+
+footer a {
   text-decoration: none;
 color: inherit;
 }
@@ -371,6 +418,7 @@ ul {
 li {
   line-height: 30px;
 }
+
 .about, .our-accommodations, .assistance {
 margin: 0 0 0 3.6%;
 }
