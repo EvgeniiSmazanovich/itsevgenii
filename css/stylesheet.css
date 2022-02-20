@@ -108,6 +108,7 @@ input[type=text] {
     margin: 49px 0 0 3.6%;
     justify-content: flex-start;
     align-items: center;
+    gap:20px;
 }
 
 
@@ -184,13 +185,19 @@ i[class="fa-solid fa-money-bill-wave"], i[class="fa-solid fa-child"], i[class="f
 .info > p {
   width:400px;
 }
+#AccomodationsInMarseille{
+display: flex;
+justify-content: flex-start;
+flex-flow: row wrap;
+align-items: center;
+}
 .AccomodationsInMarseille {
   display: inline-block;
   width: 880px;
   height: 626px;
   background-color: #f2f2f2;
   border-radius: 10px;
-  margin: 15px 40px 65px 3.6%;
+  margin: 15px 40px 0px 3.6%;
 
 }
 .AccomodationsInMarseille > h2 {
@@ -264,14 +271,77 @@ i[class="fa-solid fa-money-bill-wave"], i[class="fa-solid fa-child"], i[class="f
   padding: 2px 16px;
 }
 aside{
-position: absolute;
- top: 429px;
- 
- right: 40px;
   width: 420px;
   height: 625px;
+ /*top: 429px; 
+ right: 40px;
+ */
   background-color: #f2f2f2;
   border-radius: 10px;
+}
+
+.MostPopularHeading{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.MostPopularH{
+  flex: 1 1 auto;
+  margin-left: 38px;
+  margin-top: 40px;
+  font-family: Raleway-Bold;
+}
+.MostPopularHeading > span{
+  margin-top: 46px;
+  align-self: center;
+  margin-right: 32px;
+}
+.CardsColumns{
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+.MostPopularCard{
+  height: 144px;
+  width: 344px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: wrap;
+}
+
+.ContainerMostPopularCards > i  {
+  color: #0065fc;
+}
+
+
+.MostPopularImage{
+  width: 127px;
+  height: 134px;
+  margin: 5px 21px 5px 5px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.ContainerMostPopularCards{
+  word-spacing: -2px;
+  margin-right:20px;
+}
+.ContainerMostPopularCards >#Star {
+  color:#f2f2f2;
+}
+
+.ActivitiesInMarseille{
+height:
+width:
+background-color: #f2f2f2;
+}
+
+.ActivitiesInMarseille > h4 {
+margin: 64px 0px  0px 3.6%;
 }
 
 footer {
