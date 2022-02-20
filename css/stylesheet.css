@@ -354,24 +354,6 @@ aside {
 margin: 64px 0px  0px 3.6%;
 }
 
-.box {
-  height: 50px;
-  background-color: blue;
-  width: 302px;
-  height: 226px;
-}
-
-.mb-1 {
-  height: 237px;
-}
-
-.mb-2 {
-  height: 210px;
-}
-
-.tall {
-  height: 100%;
-}
 
 .row {
   display: flex;
@@ -379,10 +361,82 @@ margin: 64px 0px  0px 3.6%;
   gap: 43px;
 }
 
-.col {
+.TallCard{
+  background-color: #f2f2f2;
   width: 302px;
   height: 445px;
+  border-radius: 15px;
 }
+
+#TallCard {
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+.shortest{
+  height: 164px;
+  width: 302px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+
+#shortest{
+  height: 109px;
+  width: 302px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+
+.UpperCard {
+  height: 195px;
+  width: 302px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+
+#UpperCard {
+  width: 302px;
+  height: 140px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.LowerCard{
+  height:210px;
+  width: 302px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+
+#LowerCard{
+  width: 100%;
+  height: 153px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.tallest {
+  height: 237px;
+  width: 302px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+#tallest {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
 
 #col {
   display: flex;
@@ -392,12 +446,13 @@ margin: 64px 0px  0px 3.6%;
 
 footer {
   background-color: #f2f2f2;
-  display: flex;
-  flex-flow: row nowrap;
+  display: inline-flex;
+  flex-flow: row wrap;
   justify-content: flex-start;
-  max-width: 100%;
+  width: 100%;
   gap: 10%;
-  margin-top: 20%;  
+  margin-top: 61px;
+  margin-right: 0px;
 }
 
 h5 {
