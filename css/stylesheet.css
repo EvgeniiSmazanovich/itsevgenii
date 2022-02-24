@@ -366,6 +366,13 @@ margin: 64px 0px  0px 3.6%;
   width: 302px;
   height: 445px;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ActivitiesHeadings{
+margin-left: 20px;
+font-family: Raleway-Bold;
 }
 
 #TallCard {
@@ -374,6 +381,8 @@ margin: 64px 0px  0px 3.6%;
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -382,6 +391,8 @@ margin: 64px 0px  0px 3.6%;
   width: 302px;
   background-color: #f2f2f2;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 #shortest{
@@ -398,6 +409,8 @@ margin: 64px 0px  0px 3.6%;
   width: 302px;
   background-color: #f2f2f2;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 #UpperCard {
@@ -413,6 +426,8 @@ margin: 64px 0px  0px 3.6%;
   width: 302px;
   background-color: #f2f2f2;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 #LowerCard{
@@ -428,6 +443,8 @@ margin: 64px 0px  0px 3.6%;
   width: 302px;
   background-color: #f2f2f2;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 #tallest {
   height: 180px;
