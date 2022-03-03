@@ -80,6 +80,9 @@ input[type=text] {
    border-radius: 0 12px 12px 0;
    transition: 0.5s;
   }
+  .SubmitMobile{
+    display: none;
+  }
 
   .submit:hover {
     color:#F2F2F2 }
@@ -526,12 +529,14 @@ flex-flow: column-reverse wrap;
     
 }
 @media all and (max-width:768px ){
+  .BodyContainer{
+    max-width: 340px;
+    margin: auto}
 
-  
 .container-header1{
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-around;
  
 }
 .Logo{
@@ -539,31 +544,21 @@ flex-flow: column-reverse wrap;
   text-align: center;
   height: 29px;
   width: 100%;
-  flex: 1 1 auto;
 }
 .accact{
-  padding-bottom: 20px;
+margin: none;
+padding: 40px 0 20px 0;
   border-bottom: 3px solid #f2f2f2;
-  flex: 1 1 auto;
+  flex: 1 0 50%;
+  text-align: center;
 }
-a.accomodation {
-  flex: 1 1 auto;
-  padding-bottom: 20px;
-  border-bottom: 3px solid #f2f2f2;
-  
-}
-a.activities {
-  order: 3;
-  flex: 1 1 auto;
-  padding-bottom: 20px;
-  border-bottom: 2px solid #f2f2f2;
-}
-a.accomodation:hover, a.activities:hover {
+
+.accact a:hover {
   padding-bottom: 20px;
   border-top: none;
   border-bottom: 3px solid #0065FC;
   text-align: center;
-  flex: 1 1 100%;
+  flex: 1 0 50%;
 }
 .heading {
   margin-top: 43px;
@@ -571,4 +566,68 @@ a.accomodation:hover, a.activities:hover {
   flex-flow: row wrap;
 }
 
+.submit {
+  display: none;
+}
+.SubmitMobile{
+  display: inline-block;
+  color: white;
+  background-color:#0065FC; 
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  margin-left: -20px;
+}
+
+.Filters {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 46px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap:20px;
+  align-content: flex-start;
+}
+
+.Filters >h3 {
+  flex-basis: 100%;
+}
+
+.AccomodationsInMarseille-MostPopular{
+  display: flex;
+  flex-flow: column-reverse wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+    }
+    .AccomodationsInMarseille{
+      background-color: white;
+    }
+    .MarseilleRowOne{
+      display: flex;
+      flex-flow: column wrap;
+    }
+    .MarseilleRowTwo{
+      display: flex;
+      flex-flow: column wrap;
+    }
+
+    .row{
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    footer{
+      max-width: 375px;
+      margin:auto;
+    }
+.FooterContainer {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 13%;
+  margin-top: 61px;
+  margin-right: 0px;
+}
 }
