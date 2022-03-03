@@ -15,38 +15,29 @@
 </head>
 
     <body>
+      <div class="BodyContainer">
         <header>
             <div class="container-header1">
-<div class="Logo"><img src="images/logo/Booki.png" alt="Booki" width="150px"></div>
+<div class="Logo"><img class="logo mobile" src="images/logo/Booki.png" alt="Booki "></div>
 <div class="accact">
-    <a href="#AccomodationsInMarseille" title="accommodations" target="_blank">Accommodations</a>
+    <a class="accomodation" href="#AccomodationsInMarseille" title="accommodations" target="_blank">Accommodations</a>
 </div>
 <div class="accact">
-    <a href="#ActivitiesInMarseille" title="activities" target="_blank">Activities</a>
+    <a class="activities" href="#ActivitiesInMarseille" title="activities" target="_blank">Activities</a>
 </div>
             </div>
 
 
-<!--<div class="item2">
-    <h2>Find a place of your stay</h2>
-    <p>Downtown or in nature</p>
-
-</div>
-
-<div class="item3><input type="location"> <input> </input><button>Search</button></div>
-<i class="fa-solid fa-child"></i>
-
-
-            </div>-->
-
         </header>
         
             <section class="heading">
-            <div class="h1find"><h2>Find a place for your dream vacation</h2></div>
-            <div class="pdowntown"><p>Downtown or in nature</p></div>
+            <h2>Find a place for your dream vacation</h2>
+            <p>Downtown or in nature</p>
             </section>
+
+
             <section>
-                <div class="emptydiv1"></div>
+
                 <div class="search">
                     <form action="location.html" method="GET" target="_blank">
                 <i class="fa-solid fa-location-dot" ></i>
@@ -87,8 +78,8 @@
   </div>
 </section>
 <section>
-  <div id="AccomodationsInMarseille">
-<div class="AccomodationsInMarseille">
+  <div class="AccomodationsInMarseille-MostPopular">
+<div class="AccomodationsInMarseille" id="AccomodationsInMarseille">
   <h2>Accommodations In Marseille</h2>
   <div class="MarseilleRowOne">
   <div class="Card">
@@ -105,8 +96,8 @@
        </div>
     </div>
     <div class="Card">
-      <div class="Img"> <img class="Image" src="images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Auberge la Canabiére">
-      </div>
+       <img class="Image" src="images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Auberge la Canabiére">
+      
       <div class="Container">
         <h4 style="font-family: Raleway-Bold">Hôtel du port</h4> 
         <p>Night starting at <span class="Price">£52</span></p> 
@@ -176,8 +167,8 @@
   </div>
   
 <aside>
-  <div class="MostPopularHeading">
-    <div class="MostPopularH"><h4>Most Popular</h4></div>
+  <div class="MostPopularTop">
+    <div class="MostPopularHeading"><h4>Most Popular</h4></div>
     <span><i class="fa-solid fa-chart-line"></i></span>
   </div>
   <div class="CardsColumns">
@@ -225,25 +216,27 @@
   <h4 style="font-family: Raleway-Bold">Activities in Marseille</h4>
   <div class="row">
     <div class="col">
-      <div class="TallCard"><img id="TallCard" src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt=""><h5 class="ActivitiesHeadings">Old Port</h5></div>
-    </div>
-    <div class="col" id="col">
-      <div class="box tallest"><img id="tallest" src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt=""><h5 class="ActivitiesHeadings">Pomêgues Fort</h5></div>
-      <div class="box shortest"><img id="shortest" src="images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt=""><h5 class="ActivitiesHeadings">Frioul Island</h5></div>
+      <div class="TallCard"><img class="TallCard1" src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt=""><h5 class="ActivitiesHeadings">Old Port</h5></div>
     </div>
     <div class="col">
-      <div class="TallCard"><img id="TallCard" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt=""><h5 class="ActivitiesHeadings">Calanques National Park</h5></div>
+      <div class="box tallest"><img class="ImageTallest" src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt=""><h5 class="ActivitiesHeadings">Pomêgues Fort</h5></div>
+      <div class="box shortest"><img class="ImageShortest" src="images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt=""><h5 class="ActivitiesHeadings">Frioul Island</h5></div>
     </div>
-    <div class="col" id="col" id="col">
-      <div class="box UpperCard"><img id="UpperCard" src="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt=""><h5 class="ActivitiesHeadings">Notre-Dame-de-la-Garde</h5></div>
-      <div class="box LowerCard"><img id="LowerCard" src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt=""><h5 class="ActivitiesHeadings">Longchamp Park</h5></div>
+    <div class="col">
+      <div class="TallCard"><img class="TallCard2" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt=""><h5 class="ActivitiesHeadings">Calanques National Park</h5></div>
+    </div>
+    <div class="col">
+      <div class="box UpperCard"><img class="ImageUpper" src="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt=""><h5 class="ActivitiesHeadings">Notre-Dame-de-la-Garde</h5></div>
+      <div class="box LowerCard"><img class="ImageLower" src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt=""><h5 class="ActivitiesHeadings">Longchamp Park</h5></div>
     </div>
   </div>
 </section>
 
 
         </main>
+      </div>
         <footer>
+          <div class="FooterContainer">
             <div class="about">
                 <h5>About</h5>
                 <ul>
@@ -268,6 +261,8 @@
                   <li><a href="#">Contact Us</a></li>
                 </ul>
               </div>
+            </div>
+           
         </footer>
     </body>
 </html>

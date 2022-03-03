@@ -4,27 +4,30 @@
 
 body {
 font-family: Raleway;
-margin: 0;
 }
 
+.BodyContainer{
+  max-width: 1340px;
+  margin: auto;
+}
 .container-header1 {
 display: flex;
 flex-flow: row nowrap;
-justify-content: flex-start;
+justify-content: space-between;
 }
 
 .Logo {
   margin-top: 53px;
-  margin-left: 3.6%;
   flex-basis: 70%;
-  align-self: flex-end;   
+  height: 29px;
+  width: 100%;
 }
 
 .accact {                                       /*Accommodations and Activites class*/
-    justify-content: flex-end;
     margin-top: 32px;
     padding: 40px;
     text-size-adjust: 7px;
+    align-self: flex-end;
 }
 
 .accact a {
@@ -35,42 +38,26 @@ color: inherit;
 .accact a:hover {
     color:#0065FC;
     border-top: 2pt solid #0065FC;
-    padding-top: 40px;
+    padding-top: 65px;
     text-decoration: none;
 }
 
 
 .heading {
-  max-width:fit-content;
-  margin: inherit;
-  padding: 0 3.6%;
+  margin-top: 43px;
+  max-width: 100%;
 }
 
-.emptydiv1 {
-    visibility: hidden;
-    height: 0px;
-}
-/*.h1find {
-    margin-left: 32px;
-    letter-spacing: -2px;
-}
-.pdowntown {
-    margin-left: 32px;
-    margin-top: -22px;
-} */
 
 .search{
-    display: inline-block;
-    position: relative;
-    left: 3.6%;
-    width: 330px;
+    display: flex;
+   flex-flow: row nowrap;
+    width: 100%;
 }
 
 input[type=text] {
     padding: 9px 20px 12px 9px;
     font-weight: 700;
-    position: absolute;
-    left:50px;
     border-width: 1px 0 1px 0;
     border-style: solid;
     border-color: #F2F2F2;
@@ -81,8 +68,6 @@ input[type=text] {
     border-radius: 12px 0 0 12px;
     padding: 12px 16px 12px 12px;
     padding-inline-start: 20px;
-    position: absolute;
-    left:0;
     background-color: #F2F2F2;
   }
 
@@ -92,23 +77,17 @@ input[type=text] {
       font-weight: 700;
       border : 1px solid  #0065FC;
       padding: 11px 20px 11px 11px;
-      position: absolute;
-      right:0px;
    border-radius: 0 12px 12px 0;
    transition: 0.5s;
   }
 
   .submit:hover {
     color:#F2F2F2 }
-/*                                                                            
-.search {
-    margin: -50px 0 0 32px;   
-} */   /*alternative positioning  */
 
 .Filters {
     display: flex;
     flex-flow: row wrap;
-    margin: 49px 0 0 3.6%;
+    margin-top: 46px;
     justify-content: flex-start;
     align-items: center;
     gap:20px;
@@ -146,30 +125,14 @@ input[type=text] {
   align-items: center;
 }
 
-/*
-i[class="fa-solid fa-money-bill-wave"], i[class="fa-solid fa-child"], i[class="fa-solid fa-heart"], i[class="fa-solid fa-dog"] {
-  width: 43px;
-  height: 43px;
-  margin: -2px 0 -2px -20px;
-  text-align: center;
-  line-height: 42px;
-  font-size: 16px;
-  color: #0065fc;
-  background-color: #DEEBFF;
-  border-radius: 24px;
-
-}
- 
-*/
-
 .info {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
   font-weight: 600;
-  margin-left: 3.6%;
   gap: 15px;
+  margin: 46px 0 20px 0;
 }
   
 .infoicon {
@@ -187,20 +150,19 @@ i[class="fa-solid fa-money-bill-wave"], i[class="fa-solid fa-child"], i[class="f
   width:400px;
 }
 
-#AccomodationsInMarseille {
+.AccomodationsInMarseille-MostPopular {
 display: flex;
 justify-content: flex-start;
 flex-flow: row wrap;
 align-items: center;
+gap: 40px;
 }
 
 .AccomodationsInMarseille {
-  display: inline-block;
   width: 880px;
   height: 626px;
   background-color: #f2f2f2;
   border-radius: 10px;
-  margin: 15px 40px 0px 3.6%;
 }
 
 .AccomodationsInMarseille > h2 {
@@ -222,35 +184,35 @@ align-items: center;
   display: flex;
   gap: 30px;
   margin: 27px 40px;
+  max-width:100%;
 }
 
 .Card {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column nowrap;
   justify-content: flex-start;
   background-color: white;
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 244px;
+  /*width: 244px;*/width:100%;
   height: 199px; 
   border-radius: 10px; 
 }
 
 .Image {
-  width: 236px;
+  /*width: 236px;*/ width: 100%;
   height: 114px;
   object-fit: cover;
-  margin: 5px 3px 0px 5px;
+  padding: 5px 5px 0px 5px;
   border-radius: 10px;
 }
 
 .Container {
   text-align: left;
-  margin-top: -10px;
   margin-left: 16px;
-  line-height: 0px;
-  font-size: 12px;
+  line-height: 5px;
+  font-size: 14px;
 }
 
 .Container > I {
@@ -291,21 +253,21 @@ aside {
   border-radius: 10px;
 }
 
-.MostPopularHeading {
+.MostPopularTop {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
   align-content: space-around;
 }
 
-.MostPopularH {
+.MostPopularHeading {
   flex: 1 1 auto;
   margin-left: 38px;
   margin-top: 40px;
   font-family: Raleway-Bold;
 }
 
-.MostPopularHeading > span {
+.MostPopularTop > span {
   margin-top: 46px;
   align-self: center;
   margin-right: 32px;
@@ -327,7 +289,9 @@ aside {
   border-radius: 10px;
   display: flex;
   flex-direction: wrap;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+
 
 .ContainerMostPopularCards > i  {
   color: #0065fc;
@@ -339,11 +303,13 @@ aside {
   margin: 5px 21px 5px 5px;
   border-radius: 10px;
   object-fit: cover;
+  
 }
 
 .ContainerMostPopularCards {
   word-spacing: -2px;
   margin-right:20px;
+  
 }
 
 .ContainerMostPopularCards >#Star {
@@ -351,53 +317,55 @@ aside {
 }
 
 .ActivitiesInMarseille > h4 {
-margin: 64px 0px  0px 3.6%;
+margin-top:64px;
 }
 
-
 .row {
-  display: flex;
-  margin: 27px 53px 60px 3.6%;
-  gap: 43px;
+display: flex;
+justify-content: space-evenly;
+margin-top: 27px;
+gap: 43px;
 }
 
 .TallCard{
-  background-color: #f2f2f2;
-  width: 302px;
+  background-color: white;
+ /*  width: 302px; */ width: 100%;
   height: 445px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .ActivitiesHeadings{
 margin-left: 20px;
 font-family: Raleway-Bold;
+width: 100%;
 }
 
-#TallCard {
-  width: 100%;
+.TallCard1, .TallCard2 {
+  /* width: 100%; */width: 100%;
   height: 390px;
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  display: flex;
-  flex-direction: column;
+  
 }
 
 
 .shortest{
   height: 164px;
-  width: 302px;
-  background-color: #f2f2f2;
+ /*  width: 302px; */ width: 100%;
+  background-color: white;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-#shortest{
+.ImageShortest{
   height: 109px;
-  width: 302px;
+  width: 100%;
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -406,15 +374,16 @@ font-family: Raleway-Bold;
 
 .UpperCard {
   height: 195px;
-  width: 302px;
-  background-color: #f2f2f2;
+  /* width: 302px; */ width:100%;
+  background-color: white;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-#UpperCard {
-  width: 302px;
+.ImageUpper {
+  width: 100%;
   height: 140px;
   object-fit: cover;
   border-top-left-radius: 15px;
@@ -422,15 +391,16 @@ font-family: Raleway-Bold;
 }
 
 .LowerCard{
-  height:210px;
-  width: 302px;
-  background-color: #f2f2f2;
+  height: 210px;
+  /*width: 302px; */ width: 100%;
+  background-color: white;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-#LowerCard{
+.ImageLower{
   width: 100%;
   height: 153px;
   object-fit: cover;
@@ -440,13 +410,14 @@ font-family: Raleway-Bold;
 
 .tallest {
   height: 237px;
-  width: 302px;
-  background-color: #f2f2f2;
+  /* width: 302px; */ width:100%;
+  background-color: white;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-#tallest {
+.ImageTallest {
   height: 180px;
   width: 100%;
   object-fit: cover;
@@ -455,25 +426,35 @@ font-family: Raleway-Bold;
 }
 
 
-#col {
+.col {
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap: 43px;
 }
+.MostPopularCard:hover, .TallCard:hover, .box:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+footer{
+  max-width: 1440px;
+  margin:auto;
+}
 
-footer {
+.FooterContainer {
   background-color: #f2f2f2;
   display: inline-flex;
   flex-flow: row wrap;
   justify-content: flex-start;
   width: 100%;
-  gap: 10%;
+  gap: 13%;
   margin-top: 61px;
   margin-right: 0px;
 }
 
 h5 {
   font-size:18px;
+  font-family: Raleway-Bold;
 }
 
 footer a {
@@ -495,3 +476,99 @@ li {
 margin: 0 0 0 3.6%;
 }
 
+@media all and (min-width:768px) and (max-width:992px){
+  .container-header1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    }
+    .Logo{
+      flex-basis: 50% ;
+    }
+  .Filters{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    gap: 5px;
+  }
+ 
+  .AccomodationsInMarseille-MostPopular{
+display: flex;
+flex-flow: column-reverse wrap;
+  }
+  .ActivitiesInMarseille{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .AccomodationsInMarseille {
+    width: 100%;
+    height: 626px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  .row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .FooterContainer{
+    display: inline-flex;
+    flex-flow: row;
+    min-width: 100%;
+  }
+  .about, .our-accommodations, .assistance {
+    display: flex;
+    flex-flow: row wrap;
+    }
+    
+}
+@media all and (max-width:768px ){
+
+  
+.container-header1{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+ 
+}
+.Logo{
+  margin-top: 20px;
+  text-align: center;
+  height: 29px;
+  width: 100%;
+  flex: 1 1 auto;
+}
+.accact{
+  padding-bottom: 20px;
+  border-bottom: 3px solid #f2f2f2;
+  flex: 1 1 auto;
+}
+a.accomodation {
+  flex: 1 1 auto;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #f2f2f2;
+  
+}
+a.activities {
+  order: 3;
+  flex: 1 1 auto;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f2f2f2;
+}
+a.accomodation:hover, a.activities:hover {
+  padding-bottom: 20px;
+  border-top: none;
+  border-bottom: 3px solid #0065FC;
+  text-align: center;
+  flex: 1 1 100%;
+}
+.heading {
+  margin-top: 43px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+}
