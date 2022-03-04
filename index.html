@@ -11,6 +11,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/d29223d915.js" crossorigin="anonymous"></script>
 </head>
 
@@ -18,7 +21,7 @@
       <div class="BodyContainer">
         <header>
             <div class="container-header1">
-<div class="Logo"><img class="logo mobile" src="images/logo/Booki.png" alt="Booki "></div>
+<div class="Logo"><img src="images/logo/Booki@3x.png" alt="Booki"></div>
 <div class="accact">
     <a class="accomodation" href="#AccomodationsInMarseille" title="accommodations" target="_blank">Accommodations</a>
 </div>
@@ -31,22 +34,21 @@
         </header>
         
             <section class="heading">
-            <h2>Find a place for your dream vacation</h2>
+            <h3>Find a place for your dream vacation</h3>
             <p>Downtown or in nature</p>
             </section>
 
 
-            <section>
-
-                <div class="search">
-                    <form action="location.html" method="GET" target="_blank">
+  <section>             
+      <form action="location.html" method="GET" target="_blank">
+        <div class="search">
                 <i class="fa-solid fa-location-dot" ></i>
                 <input type="text" value="Marseille, France" required name="location" class="location">
                 <button type="submit" class="submit">Search</button>
                 <button type="submit" class="SubmitMobile"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
-                </div>
-            </section>
+         </div>
+        </form>   
+    </section>
     
 <section class="Filters">
 <h3>Filters</h3>
@@ -167,9 +169,9 @@
   </div>
   
 <aside>
+  <div class="MostPopular">
   <div class="MostPopularTop">
-    <div class="MostPopularHeading"><h4>Most Popular</h4></div>
-    <span><i class="fa-solid fa-chart-line"></i></span>
+    <div class="MostPopularHeading"><h4>Most Popular</h4><span><i class="fa-solid fa-chart-line"></i></span></div>
   </div>
   <div class="CardsColumns">
   <div class="MostPopularCard">
@@ -208,6 +210,7 @@
       <i class="fa-solid fa-star" id="Star"></i>
    </div>
   </div>
+</div>
 </div>
 </aside>
 </div>

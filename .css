@@ -1,6 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-
 *, *::before, *::after  {
     box-sizing: border-box;
 }
@@ -8,7 +5,6 @@
 body {
 font-family: Raleway;
 }
-
 
 .BodyContainer{
   max-width: 1340px;
@@ -41,6 +37,7 @@ justify-content: space-between;
 .accact a {
 text-decoration: none;
 color: inherit;
+  border-bottom: 3px solid transparent;
 }
 
 .accact a:hover {
@@ -59,7 +56,8 @@ color: inherit;
 
 .search{
     display: flex;
-    flex-flow: row nowrap;
+   flex-flow: row nowrap;
+    width: 100%;
 }
 
 input[type=text] {
@@ -253,27 +251,34 @@ gap: 40px;
   padding: 2px 16px;
 }
 
-.MostPopular {
-  max-width: 100%;
-  min-width: 420px;
+aside {
+  width: 420px;
   height: 625px;
+ /*top: 429px; 
+ right: 40px;
+ */
   background-color: #f2f2f2;
   border-radius: 10px;
 }
 
-
-.MostPopularHeading {
+.MostPopularTop {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
-  padding-left: 38px;
-  padding-top: 40px;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.MostPopularHeading {
+  flex: 1 1 auto;
+  margin-left: 38px;
+  margin-top: 40px;
   font-family: Raleway-Bold;
 }
-.MostPopularHeading > span {
-  align-self: center;
-  padding-right: 38px;
 
+.MostPopularTop > span {
+  margin-top: 46px;
+  align-self: center;
+  margin-right: 32px;
 }
 
 .CardsColumns {
@@ -529,7 +534,9 @@ flex-flow: column-reverse wrap;
     
 }
 @media all and (max-width:768px ){
-
+  .accact:hover{
+    border-bottom: 3px solid #0065FC;
+  }
 .container-header1{
   display: flex;
   flex-flow: row wrap;
@@ -545,43 +552,32 @@ flex-flow: column-reverse wrap;
 text-align: center;
 padding: 20px 0 20px 0;
   border-bottom: 3px solid #f2f2f2;
-  flex: 0 0 50%;
+  flex: 1 0 50%;
   margin-top: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
 }
 
-.accact:hover{
-  border-bottom: 3px solid #0065FC;
-  color: #0065FC;;
-}
 .accact a:hover {
   padding-top: 0;
   border-top: none;
-  margin: none;
-  text-decoration: none;
   
+  margin: none;
+  width: 100%;
+  text-decoration: none;
 }
-
-
 .heading {
   margin-top: 43px;
   display: flex;
-  flex-flow: column wrap;
-}
-
-
-.search{
-  display: flex;
-  flex-flow: row;
-  justify-content: flex-start;
-  margin-top: 20px;
+  flex-flow: row wrap;
 }
 
 .submit {
   display: none;
-  
 }
 .SubmitMobile{
-  display:  inline-flex;
+  display: inline-block;
   color: white;
   background-color:#0065FC; 
   padding: 10px;
@@ -606,8 +602,10 @@ padding: 20px 0 20px 0;
 .fltIcon {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-start;  
+  justify-content: flex-start;
+  
   font-weight: 600;
+ 
   border: 1px solid #f2f2f2;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
@@ -621,13 +619,13 @@ padding: 20px 0 20px 0;
   gap: none;
   align-content: flex-start;
     }
-
-.MostPopular {
-    width:100vw;
+    aside {
+      max-width: 375px;
+      margin: auto;
+  height: 625px;
+  
   background-color: #f2f2f2;
   border-radius: 10px;
-  margin-right: 330px;
-  border: 1px solid red;
 }
     .AccomodationsInMarseille{
       background-color: white;
@@ -793,7 +791,7 @@ margin-top: 1000px;
 
 
     footer{
-      
+      max-width: 375px;
       margin: auto;
     }
 
