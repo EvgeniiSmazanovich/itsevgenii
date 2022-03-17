@@ -340,17 +340,21 @@ main .fas {
 .FooterContainer h5 {
   letter-spacing: 1px;
 }
+
 footer a {
   text-decoration: none;
   color: inherit;
 }
+
 ul {
   list-style-type: none;
   padding-left: 0px;
 }
+
 li {
   padding: 10px 0;
 }
+
 .our-accommodations,
 .about,
 .assistance {
@@ -370,17 +374,20 @@ li {
     justify-content: center;
     width: 100%;
   }
+
   .Logo {
     text-align: center;
     max-height: 48px;
     min-height: 16px;
     flex-basis: 100%;
   }
+
   .accact a {
     text-decoration: none;
     color: inherit;
     width: 100%;
   }
+
   .accact {
     text-align: center;
     padding: 20px 0 20px 20px;
@@ -388,21 +395,25 @@ li {
     flex: 1 0 50%;
     margin-right: -5px;
   }
+
   .accact:hover {
     border-bottom: 3px solid #0065fc;
     color: #0065fc;
   }
+
   .accact a:hover {
     padding-top: 0;
     border-top: none;
     margin: 0;
     text-decoration: none;
   }
+
   .heading {
     display: flex;
     flex-flow: column wrap;
     padding-left: 20px;
   }
+
   .fa-location-dot {
     border: 1px solid #f2f2f2;
     border-radius: 12px 0 0 12px;
@@ -410,6 +421,7 @@ li {
     padding-inline-start: 20px;
     background-color: #f2f2f2;
   }
+
   input[type="text"] {
     padding: 9px 20px 12px 9px;
     font-weight: 700;
@@ -417,6 +429,7 @@ li {
     border-style: solid;
     border-color: #f2f2f2;
   }
+
   .search {
     padding-left: 20px;
     display: flex;
@@ -424,12 +437,15 @@ li {
     justify-content: flex-start;
     padding-top: 20px;
   }
+
   .location {
     min-width: 30%;
   }
+
   .submit {
     display: none;
   }
+
   .SubmitMobile {
     display: inline-flex;
     color: white;
@@ -448,9 +464,11 @@ li {
     padding-left: 20px;
     padding-right: 53px;
   }
+
   .ButtonFilters h3 {
     width: 100%;
   }
+
   .filter {
     width: auto;
     display: flex;
@@ -479,6 +497,7 @@ li {
     justify-content: center;
     padding: 20px 20px;
   }
+
   .MostPopularHeading {
     display: flex;
     flex-flow: row nowrap;
@@ -496,7 +515,6 @@ li {
   }
 
   .MostPopularCard {
-    /*width: 90%;*/
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -516,6 +534,7 @@ li {
     text-decoration: none;
     color: inherit;
   }
+
   .MostPopularImage {
     margin: 5px 21px 5px 5px;
     border-top-left-radius: 10px;
@@ -528,18 +547,22 @@ li {
   .ContainerMostPopularCards {
     padding: 5px 0px;
   }
+
   .ContainerMostPopularCards > h4,
   p {
     margin: 0px;
     flex: 1 1 100%;
     padding: 3px 0;
   }
+
   .ContainerMostPopularCards > i {
     color: #0065fc;
   }
+
   .ContainerMostPopularCards > .Star {
     color: #f2f2f2;
   }
+
   .AccomodationsInMarseille {
     background-color: white;
     align-items: center;
@@ -562,10 +585,12 @@ li {
     font-size: 22px;
     padding: 20px 0px;
   }
+
   .AccomodationsInMarseille > h4 {
     align-self: flex-start;
     font-size: 18px;
   }
+
   .Container > p {
     margin: 0;
     padding: 2px 0;
@@ -595,6 +620,7 @@ li {
     /* height: 199px; */
     border-radius: 10px;
   }
+
   .Image {
     width: 100%;
     height: 114px;
@@ -602,6 +628,7 @@ li {
     padding: 5px 5px 0px 5px;
     border-radius: 10px;
   }
+
   .Container > I {
     color: #0065fc;
   }
@@ -609,6 +636,7 @@ li {
   .Container > .Star {
     color: #f2f2f2;
   }
+
   .MarseilleRowOne {
     display: flex;
     flex-flow: column wrap;
@@ -622,6 +650,7 @@ li {
     width: 100%;
     padding-top: 12px;
   }
+
   .ActivitiesInMarseille {
     display: flex;
     flex-flow: column wrap;
@@ -731,6 +760,7 @@ li {
     flex-flow: row wrap;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
+
   .ImageTallest {
     height: 134px;
     width: 100%;
@@ -749,10 +779,12 @@ li {
   footer {
     margin: auto;
   }
+
   .FooterContainer a {
     text-decoration: none;
     color: inherit;
   }
+
   .FooterContainer {
     flex-flow: column nowrap;
     min-width: 100%;
@@ -771,6 +803,10 @@ li {
 @media all and (min-width: 769px) and (max-width: 992px) {
   body {
     padding-right: 0px;
+  }
+
+  .accact {
+    padding-right: 20px;
   }
 
   .AccomodationsInMarseille-MostPopular {
@@ -832,15 +868,18 @@ li {
   .ContainerMostPopularCards {
     padding: 0px 0px 5px 5px;
   }
+
   .ContainerMostPopularCards > h4,
   p {
     margin: 0px;
     flex: 1 1 100%;
   }
+
   .ContainerMostPopularCards > i {
     padding: 1px;
     color: #0065fc;
   }
+
   .ContainerMostPopularCards > .Star {
     color: #f2f2f2;
   }
@@ -1049,6 +1088,7 @@ li {
   .container {
     padding: 2px 16px;
   }
+
   aside {
     width: 373px;
     flex-grow: 0;
@@ -1071,6 +1111,7 @@ li {
     padding: 20px 0px;
     column-gap: 60%;
   }
+
   .MostPopularHeading > h4,
   span {
     align-self: center;
@@ -1094,6 +1135,7 @@ li {
     justify-content: flex-start;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
+
   .ContainerMostPopularCards {
     padding: 5px 15px 5px 5px;
   }
@@ -1109,14 +1151,17 @@ li {
     border-radius: 10px 0 0 10px;
     object-fit: cover;
   }
+
   .ContainerMostPopularCards h4,
   p {
     margin: 0;
     padding: 12px 0px;
   }
+
   .ContainerMostPopularCards > .Star {
     color: #f2f2f2;
   }
+
   .FooterContainer {
     margin: 40px -40px 0px -40px;
     padding: 3% 3%;
