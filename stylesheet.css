@@ -30,7 +30,7 @@ body{
   
   .accact {                              
       margin-top: 32px;
-      padding: 40px;
+     
       text-size-adjust: 7px;
       align-self: flex-end;
   }
@@ -38,8 +38,9 @@ body{
   .accact a {
   text-decoration: none;
   color: inherit;
+  padding: 65px 30px;
   }
-  
+
   .accact a:hover {
       color:#0065FC;
       border-top: 3px solid #0065FC;
