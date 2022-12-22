@@ -19,8 +19,8 @@ STACKOVERFLOW IS THE ANSWER! ---Full Stack---
 ===========================================================================================================================================
 <div>
 <a href="https://github.com/itsevgenii" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itsevgenii&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
-<img style="width:300px"  src="https://github.com/keshavsingh4522/keshavsingh4522/raw/master/Assets/Monkey_Kid_Coding.gif"/>
-<img style="width:300px" src="https://sun9-3.userapi.com/impg/YSy2CGO-If-TYCV55hbwKQ-GUchsaYYML5CVVQ/6uYezAdWAOg.jpg?size=1706x1707&quality=95&sign=8b0c278ba69917d5983a46d08c281206&type=album">
+<img style="width:200px"  src="https://github.com/keshavsingh4522/keshavsingh4522/raw/master/Assets/Monkey_Kid_Coding.gif"/>
+<img style="width:200px" src="https://sun9-3.userapi.com/impg/YSy2CGO-If-TYCV55hbwKQ-GUchsaYYML5CVVQ/6uYezAdWAOg.jpg?size=1706x1707&quality=95&sign=8b0c278ba69917d5983a46d08c281206&type=album">
 
 </div>
 
