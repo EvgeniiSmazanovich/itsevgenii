@@ -36,7 +36,9 @@ Currently missing a semicolon :(
 *   ✉️  You can contact me at [https://www.linkedin.com/in/eugene-smazanovich/](mailto:https://www.linkedin.com/in/eugene-smazanovich/)
 *   🧠  I'm learning NextJS, Remix, Couchbase, MangoDB, Tailwind, AWS
 *   🤝  I'm open to collaborating on multipage full stack apps with authentication, video calling apps, image sharing apps
-*   ⚡  -Tea or Coffee? Coffee...or Tea; - Cats or Dogs? Dogs ... or Cats...it all depends :)### Skills 
+*   ⚡  -Tea or Coffee? Coffee...or Tea; - Cats or Dogs? Dogs ... or Cats...it all depends :)
+*   
+  ### Skills 
 <p align="left">
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
